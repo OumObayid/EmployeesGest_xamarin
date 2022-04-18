@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sCneyCVeF+wIREOnQhnEAUt2ypyVwIIVYarPyYD9G1Z5ZA2GJCSLBOVI/kQVq8D7CTwAkRgT/uGdnL5PPhN21w==",
+  "dgSpecHash": "91QIg9Mgs3h/jR4VU3n2UalbT20DndItXwSngQGslRmNdDo93Y+kpUJx/3EEUC0H4jQryGgk8yvC/l2jjiM8lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
+  "projectFilePath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoph\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\Stoph\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

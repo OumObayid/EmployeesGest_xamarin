@@ -1663,11 +1663,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
+      "projectUniqueName": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
       "projectName": "EmployeeGest.iOS",
-      "projectPath": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
+      "projectPath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
       "packagesPath": "C:\\Users\\Stoph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest.iOS\\obj\\",
+      "outputPath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1690,8 +1690,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
-              "projectPath": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
+            "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
+              "projectPath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
             }
           }
         }

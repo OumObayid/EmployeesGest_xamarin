@@ -2673,11 +2673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
+      "projectUniqueName": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
       "projectName": "EmployeeGest.Android",
-      "projectPath": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
+      "projectPath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
       "packagesPath": "C:\\Users\\Stoph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest.Android\\obj\\",
+      "outputPath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2700,8 +2700,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
-              "projectPath": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
+            "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
+              "projectPath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
             }
           }
         }

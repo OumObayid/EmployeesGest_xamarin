@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,6 +16,8 @@ namespace EmployeeGest.MasterPage
         {
             InitializeComponent();
         }
+
+ 
 
         protected override void OnAppearing()
         {
@@ -80,6 +82,19 @@ namespace EmployeeGest.MasterPage
             {
                 EmployeeList.ItemsSource = DependencyService.Get<ISQLite>().GetEmployees().Where(x => x.Name.ToLower().Contains(e.NewTextValue.ToLower()) || x.PhoneNumber.ToLower().Contains(e.NewTextValue.ToLower()));
             }
+        }
+
+        private void Share_Clicked(object sender, EventArgs e)
+        {
+            Share.RequestAsync(new ShareTextRequest
+            {
+                Text = "I want to share this application with you, Try it please",
+                Title = "Share App"
+            });
+        }
+        private void Exit_Clicked(object sender, EventArgs e)
+        {
+          
         }
 
     }

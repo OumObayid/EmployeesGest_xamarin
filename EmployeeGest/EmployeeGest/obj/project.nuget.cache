@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p6YGlYEzpu+qJD8NPXt8BUTWgrWgyafK7k0ydOuPRrkiApGhGE3hW9vfG6FzE9wRPTGJ4dIbdBBPax2kxSAwLw==",
+  "dgSpecHash": "Y4BoLa9PW74MgQz8ul6aEwvyIcRaJ9DzHkjOsYNO9C2uAR93YYlk59pr1qz77J0vCXb5ISxW87WC/0GTu3zsCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stoph\\Dropbox\\Mon PC (Stoph)\\Desktop\\test\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj",
+  "projectFilePath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoph\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Stoph\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

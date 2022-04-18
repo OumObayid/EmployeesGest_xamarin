@@ -21,3 +21,26 @@ C:\Users\Stoph\Dropbox\Mon PC (Stoph)\Desktop\test\EmployeeGest\EmployeeGest\Emp
 C:\Users\Stoph\Dropbox\Mon PC (Stoph)\Desktop\test\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\MasterPage\MasterPageFlyout.xaml.g.cs
 C:\Users\Stoph\Dropbox\Mon PC (Stoph)\Desktop\test\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\EditEmployeePage.xaml.g.cs
 C:\Users\Stoph\Dropbox\Mon PC (Stoph)\Desktop\test\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\Sms.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\bin\Debug\netstandard2.0\EmployeeGest.deps.json
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\bin\Debug\netstandard2.0\EmployeeGest.dll
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\bin\Debug\netstandard2.0\ref\EmployeeGest.dll
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\bin\Debug\netstandard2.0\EmployeeGest.pdb
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\EmployeeGest.csproj.AssemblyReference.cache
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\EmployeeGest.GeneratedMSBuildEditorConfig.editorconfig
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\About.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\AddEmployeePage.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\Contact.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\EditEmployeePage.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\MasterPage\MasterPage.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\MasterPage\MasterPageDetail.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\MasterPage\MasterPageFlyout.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\Sms.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\ViewEmployeePage.xaml.g.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\EmployeeGest.AssemblyInfoInputs.cache
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\EmployeeGest.AssemblyInfo.cs
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\EmployeeGest.csproj.CoreCompileInputs.cache
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\XamlC.stamp
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\EmployeeGest.dll
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\ref\EmployeeGest.dll
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest\obj\Debug\netstandard2.0\EmployeeGest.pdb
