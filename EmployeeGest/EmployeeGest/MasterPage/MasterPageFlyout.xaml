@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmployeeGest.MasterPage.MasterPageFlyout"
+             Title="Flyout">
+  <StackLayout>
+        <ListView x:Name="MenuItemsListView" 
+              SeparatorVisibility="Default"
+              SeparatorColor ="{ StaticResource PrimaryColor}"
+              HasUnevenRows="true"
+              ItemsSource="{Binding MenuItems}">
+      <ListView.Header>
+                <Grid BackgroundColor="{ StaticResource PrimaryColor}">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="10"/>
+          </Grid.RowDefinitions>
+                    <Image Grid.Column="1" Grid.Row="1"  Source="logo.png" HorizontalOptions="Center" VerticalOptions="Center" />
+                    <Label
+              Grid.Column="1"
+              Grid.Row="2"
+              Text="Employee Management"
+               TextColor="Beige" FontSize="Large"/>
+        </Grid>
+      </ListView.Header >
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell >
+            <StackLayout Padding="0,15" Orientation="Horizontal" HorizontalOptions="Start">
+                    <StackLayout WidthRequest="60" HorizontalOptions="Start" Margin="0,0,15,0">
+                   <Image x:Name="Icon" Source="{Binding Icon}" WidthRequest="35" HeightRequest="35"></Image>
+                  </StackLayout>
+                  <Label VerticalOptions="FillAndExpand" 
+                        Text="{Binding Title}"                       
+                        FontSize="18" />
+             </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>

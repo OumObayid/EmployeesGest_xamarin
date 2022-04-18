@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmployeeGest.MasterPage.MasterPageDetail"
+             Title="Employees">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+                     Icon="add.png "
+                 Order="Primary"
+                 Priority="0" Clicked="AddEmployee" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Padding="5">
+            <SearchBar  TextChanged="SearchBar_TextChanged" Placeholder="Search items..."
+           CancelButtonColor="{ StaticResource PrimaryColor}"
+           PlaceholderColor="{ StaticResource PrimaryColor}"
+           TextColor="{ StaticResource PrimaryColor}"
+           HorizontalTextAlignment="Center"
+           FontSize="Medium"
+           FontAttributes="Italic" />
+
+            <ListView 
+            x:Name="EmployeeList" 
+            HasUnevenRows="True" 
+            ItemSelected="ListView_ItemSelected"
+                          SeparatorVisibility="Default" 
+                            SeparatorColor ="{ StaticResource PrimaryColor}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+
+                            <StackLayout 
+                            Margin="0,0,0,5"  
+                            Spacing="2" 
+                            Orientation="Horizontal">
+
+                                <StackLayout Orientation="Horizontal"  HorizontalOptions="StartAndExpand">
+                                    <Image    Margin="0,0,5,0" Source="{Binding ImagePath}" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="60" WidthRequest="60"/>
+
+                                    <StackLayout   >
+                                        <Label Text="{Binding Name}" FontSize="17"  FontAttributes="Bold" TextColor="#1c1b1b"/>
+                                        <Label Text="{Binding PhoneNumber}" FontSize="Small" FontAttributes="None" TextColor="#1c1b1b"/>
+                                    </StackLayout>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="Center" Orientation="Horizontal" HorizontalOptions="EndAndExpand" Margin="0,0,10,0">
+                                    <Image Source="edit.png" HeightRequest="30" WidthRequest="30" Margin="0,0,10,0">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer
+                                             Tapped="TapGestureRecognizer_Tapped_Edit"
+                                            CommandParameter="{Binding Id}"/>
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                    <Image Source="trash.png"   HeightRequest="32" WidthRequest="32" >
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer
+                                                    Tapped="TapGestureRecognizer_Tapped_Remove"
+                                                    CommandParameter="{Binding Id}"/>
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                </StackLayout>
+                            </StackLayout>
+
+
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

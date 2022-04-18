@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmployeeGest.Sms">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Margin="0,20,0,10" Text="Sms All Employees" FontAttributes="Bold" FontSize="Large" TextColor="{ StaticResource PrimaryColor}" HorizontalTextAlignment="Center" ></Label>
+
+            <Editor x:Name="txtSms" Placeholder="Your sms" HeightRequest="40"></Editor>
+            <Button x:Name="btnSend" Text="Send" Clicked="btnSend_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
