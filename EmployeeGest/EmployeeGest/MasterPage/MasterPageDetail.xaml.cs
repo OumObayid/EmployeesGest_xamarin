@@ -94,7 +94,8 @@ namespace EmployeeGest.MasterPage
         }
         private void Exit_Clicked(object sender, EventArgs e)
         {
-          
+            Environment.Exit(0);
+
         }
 
     }

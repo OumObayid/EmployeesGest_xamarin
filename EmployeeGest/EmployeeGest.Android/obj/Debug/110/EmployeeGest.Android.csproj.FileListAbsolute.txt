@@ -709,7 +709,6 @@ D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debu
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\android\assets\Plugin.Messaging.Abstractions.dll
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\android\assets\Plugin.Messaging.Abstractions.pdb
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\android\assets\Plugin.Messaging.dll
-D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\android\assets\Plugin.Messaging.dll.mdb
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\android\assets\SQLite-net.dll
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\android\assets\SQLitePCLRaw.batteries_v2.dll
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\android\assets\SQLitePCLRaw.core.dll
@@ -1239,3 +1238,4 @@ D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debu
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\android\assets\Plugin.Messaging.pdb
