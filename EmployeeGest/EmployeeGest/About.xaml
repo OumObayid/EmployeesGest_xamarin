@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="StartAndExpand" Orientation="Vertical" HorizontalOptions="Center" Margin="30">
             <Image Source="logo.png" HeightRequest="150" WidthRequest="150" Margin="30" />
-            <Label Text="EmployeeGest" FontSize="30" TextColor="#4f2852" Margin="30" />
+            <Label Text="EmployeeGest" FontSize="40" TextColor="#aa2852" Margin="0,0,0,25" />
             <Label Text="Edited by: Oumaima El Obayid" FontSize="20"/>
             <Label Text="Company: EmployeeGest" FontSize="20"/>
             <Label Text="Version 1.0.0" FontSize="20"/>            
