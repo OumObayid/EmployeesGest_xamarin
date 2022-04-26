@@ -13,22 +13,30 @@
                 </Grid.RowDefinitions>
                 <Image x:Name="Image"  Grid.Row="1"   Source="" HeightRequest="250" WidthRequest="250"/>               
             </Grid>
+            <StackLayout Margin="30">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Name: " FontAttributes="Bold" FontSize="Medium"  />
+                    <Label  FontSize="Medium" HorizontalOptions="FillAndExpand" x:Name="name"  />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" >
+                    <Label Text="Address: " FontAttributes="Bold" FontSize="Medium" />
+                    <Label  FontSize="Medium" HorizontalOptions="FillAndExpand" x:Name="address"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Phone Number: " FontAttributes="Bold" FontSize="Medium" />
+                    <Label  FontSize="Medium" HorizontalOptions="FillAndExpand" x:Name="phoneNumber" />
+               </StackLayout>
+               <StackLayout Orientation="Horizontal">
+                    <Label Text="Email: " FontAttributes="Bold" FontSize="Medium"  />
+                    <Label  FontSize="Medium" HorizontalOptions="FillAndExpand"  x:Name="email"/>
+               </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Call" Clicked="btnCall_Clicked" Margin="12"></Button>
+                <Button Text="Sms" Clicked="btnSms_Clicked" Margin="12"></Button>
+                <Button Text="Email" Clicked="btnEmail_Clicked" Margin="12"></Button>
+            </StackLayout>
 
-            <Label Text="Name: " FontAttributes="Bold"  />
-            <Label  FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="name"/>
-            
-            <Label Text="Address: " FontAttributes="Bold" />
-            <Label  FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="address"/>
-            
-            <Label Text="Phone Number:" FontAttributes="Bold" />
-            <Label  FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="phoneNumber" />
-            
-            <Label Text="Email" FontAttributes="Bold" />
-            <Label  FontSize="Small" HorizontalOptions="FillAndExpand"  x:Name="email"/>
-            <Button Text="Call" Clicked="btnCall_Clicked"></Button>
-            <Button Text="Sms" Clicked="btnSms_Clicked"></Button>
-            <Button Text="Email" Clicked="btnEmail_Clicked"></Button>
-            
 
 
 

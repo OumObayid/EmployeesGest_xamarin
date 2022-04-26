@@ -2,11 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EmployeeGest.About">
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="About"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="StartAndExpand" Orientation="Vertical" HorizontalOptions="Center" Margin="30">
+            <Image Source="logo.png" HeightRequest="150" WidthRequest="150" Margin="30" />
+            <Label Text="EmployeeGest" FontSize="30" TextColor="#4f2852" Margin="30" />
+            <Label Text="Edited by: Oumaima El Obayid" FontSize="20"/>
+            <Label Text="Company: EmployeeGest" FontSize="20"/>
+            <Label Text="Version 1.0.0" FontSize="20"/>            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
