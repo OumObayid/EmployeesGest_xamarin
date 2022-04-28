@@ -27,7 +27,7 @@
             <Entry Placeholder="Email" FontSize="Small" HorizontalOptions="FillAndExpand" Keyboard="Email" x:Name="email"/>
 
 
-            <Button Text="Save" Clicked="SaveEmployee" HorizontalOptions="FillAndExpand" 
+            <Button Text="Save" Clicked="UpdateEmployee" HorizontalOptions="FillAndExpand" 
                     BackgroundColor="DarkGray" TextColor="#1c1b1b" FontAttributes="Bold" x:Name="saveBtn"/>
         </StackLayout>
     </ContentPage.Content>

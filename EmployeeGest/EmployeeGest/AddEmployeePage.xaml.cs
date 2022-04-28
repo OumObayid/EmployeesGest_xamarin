@@ -55,8 +55,7 @@ namespace EmployeeGest
             { _ = DisplayAlert("Message", "Name and phone required", "Ok"); }
             else
             {
-                if (saveBtn.Text == "Save")
-                {
+               
 
                     Employee employee = new Employee
                     {
@@ -77,25 +76,8 @@ namespace EmployeeGest
                         DisplayAlert("Message", "Data Failed To Save", "Ok");
                     }
 
-                }
-                if (saveBtn.Text != "Save")
-                {
-                    // update employee
-                    employeeDetails.Name = name.Text;
-                    employeeDetails.Address = address.Text;
-                    employeeDetails.PhoneNumber = phoneNumber.Text;
-                    employeeDetails.Email = email.Text;
-                    employeeDetails.ImagePath = path;
-                    bool res = DependencyService.Get<ISQLite>().UpdateEmployee(employeeDetails);
-                    if (res)
-                    {
-                        Navigation.PopAsync();
-                    }
-                    else
-                    {
-                        DisplayAlert("Message", "Data Failed To Update", "Ok");
-                    }
-                }
+              
+              
             }
         }
     }

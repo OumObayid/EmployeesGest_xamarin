@@ -1236,5 +1236,6 @@ D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debu
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\androidx\jl\a906b72f-f258-4024-aafe-fe210ce8009a.jar
-D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\androidx\proguard\f6c90db3-b048-4510-9947-6d5d7cc6f22e.cfg
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\android\assets\Plugin.Messaging.dll.mdb
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\androidx\jl\b7145d5f-05c9-49db-bb0e-6ae21ed73b6d.jar
+D:\cours\xamarin\projets\EmployeeGest\EmployeeGest\EmployeeGest.Android\obj\Debug\110\androidx\proguard\f87cb750-bee7-4372-86e1-6cba4a5a16de.cfg
