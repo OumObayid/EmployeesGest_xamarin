@@ -71,8 +71,6 @@ namespace EmployeeGest
             { _ = DisplayAlert("Message", "Name and phone required", "Ok"); }
             else
             {
-
-
                 // update employee
                 employeeDetails.Name = name.Text;
                     employeeDetails.Address = address.Text;

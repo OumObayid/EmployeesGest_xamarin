@@ -1656,27 +1656,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stoph\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\hp\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
+      "projectUniqueName": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
       "projectName": "EmployeeGest.iOS",
-      "projectPath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
-      "packagesPath": "C:\\Users\\Stoph\\.nuget\\packages\\",
-      "outputPath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest.iOS\\obj\\",
+      "projectPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Stoph\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1690,8 +1687,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
-              "projectPath": "D:\\cours\\xamarin\\projets\\EmployeeGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
+            "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
+              "projectPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
             }
           }
         }
