@@ -4,6 +4,7 @@ using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using Plugin.Fingerprint;
 
 namespace EmployeeGest.Droid
 {
@@ -16,6 +17,7 @@ namespace EmployeeGest.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            CrossFingerprint.SetCurrentActivityResolver(() => this);
 
 
 

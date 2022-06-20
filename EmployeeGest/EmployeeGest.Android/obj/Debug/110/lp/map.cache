@@ -1,4 +1,5 @@
 FormsViewGroup.dll
+Plugin.Fingerprint.dll
 Plugin.Media.dll
 Plugin.Messaging.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
@@ -10,6 +11,7 @@ Xamarin.AndroidX.AppCompat.dll
 Xamarin.AndroidX.Arch.Core.Common.dll
 Xamarin.AndroidX.Arch.Core.Runtime.dll
 Xamarin.AndroidX.AsyncLayoutInflater.dll
+Xamarin.AndroidX.Biometric.dll
 Xamarin.AndroidX.Browser.dll
 Xamarin.AndroidX.CardView.dll
 Xamarin.AndroidX.Collection.dll
@@ -89,3 +91,4 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
+androidx.biometric.biometric.aar

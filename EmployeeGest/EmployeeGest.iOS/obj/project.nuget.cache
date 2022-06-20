@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RxaXWh4tq4PTq0vJV0n1QITpXCR7o9ifl8Bcl8SwVQXkH4BnQZ2/hMA7MSLtDQvBZV7kcoFGmHku9koqfQmFMQ==",
+  "dgSpecHash": "8ZbuypLR13PT5hl4TZ5aJ6Et3BWVVGJKaJHEIFUgI81yXUR408vHPGQxrkYJhN5etcnBViXVeK2upHQaAtUCNA==",
   "success": true,
-  "projectFilePath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
+  "projectFilePath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\plugin.fingerprint\\2.1.5\\plugin.fingerprint.2.1.5.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
@@ -17,32 +18,5 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Passage à une version antérieure du package détecté : Xamarin.Essentials de 1.7.2 à 1.6.1. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n EmployeeGest.iOS -> EmployeeGest -> Xamarin.Essentials (>= 1.7.2) \r\n EmployeeGest.iOS -> Xamarin.Essentials (>= 1.6.1)",
-      "libraryId": "Xamarin.Essentials",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Passage à une version antérieure du package détecté : Xamarin.Forms de 5.0.0.2401 à 5.0.0.2012. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n EmployeeGest.iOS -> EmployeeGest -> Xamarin.Forms (>= 5.0.0.2401) \r\n EmployeeGest.iOS -> Xamarin.Forms (>= 5.0.0.2012)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  "logs": []
 }

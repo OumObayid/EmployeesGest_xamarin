@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj": {}
+    "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj": {}
   },
   "projects": {
-    "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj": {
+    "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
+        "projectUniqueName": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
         "projectName": "EmployeeGest.iOS",
-        "projectPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
+        "projectPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\obj\\",
+        "outputPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
-                "projectPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
+              "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
+                "projectPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
+    "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj",
+        "projectUniqueName": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj",
         "projectName": "EmployeeGest",
-        "projectPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj",
+        "projectPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\obj\\",
+        "outputPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -111,6 +111,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
             "Xam.Plugin.Media": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -121,11 +125,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.2, )"
+              "version": "[1.6.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2401, )"
+              "version": "[5.0.0.2012, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v11.0": {
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Biometric": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -224,15 +239,15 @@
           "build/MonoAndroid81/_._": {}
         }
       },
-      "Xamarin.AndroidX.Activity/1.1.0.5": {
+      "Xamarin.AndroidX.Activity/1.1.0.6": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.1.0.8",
           "Xamarin.AndroidX.Core": "1.3.2.1",
           "Xamarin.AndroidX.Lifecycle.Runtime": "2.2.0.4",
           "Xamarin.AndroidX.Lifecycle.ViewModel": "2.2.0.4",
-          "Xamarin.AndroidX.Lifecycle.ViewModelSavedState": "2.2.0.4",
-          "Xamarin.AndroidX.SavedState": "1.1.0.4-alpha01"
+          "Xamarin.AndroidX.Lifecycle.ViewModelSavedState": "2.2.0.5",
+          "Xamarin.AndroidX.SavedState": "1.0.0.3"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -378,6 +393,26 @@
         },
         "build": {
           "buildTransitive/monoandroid90/Xamarin.AndroidX.AsyncLayoutInflater.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Biometric/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Core": "1.3.2.1",
+          "Xamarin.AndroidX.Fragment": "1.2.5.5"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets": {}
         }
       },
       "Xamarin.AndroidX.Browser/1.3.0": {
@@ -552,18 +587,18 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.DrawerLayout.targets": {}
         }
       },
-      "Xamarin.AndroidX.Fragment/1.2.5.4": {
+      "Xamarin.AndroidX.Fragment/1.2.5.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Activity": "1.1.0.5",
+          "Xamarin.AndroidX.Activity": "1.1.0.6",
           "Xamarin.AndroidX.Annotation": "1.1.0.8",
           "Xamarin.AndroidX.Collection": "1.1.0.6",
           "Xamarin.AndroidX.Core": "1.3.2.1",
           "Xamarin.AndroidX.Lifecycle.LiveData.Core": "2.2.0.4",
           "Xamarin.AndroidX.Lifecycle.ViewModel": "2.2.0.4",
-          "Xamarin.AndroidX.Lifecycle.ViewModelSavedState": "2.2.0.4",
+          "Xamarin.AndroidX.Lifecycle.ViewModelSavedState": "2.2.0.5",
           "Xamarin.AndroidX.Loader": "1.1.0.6",
-          "Xamarin.AndroidX.SavedState": "1.1.0.4-alpha01",
+          "Xamarin.AndroidX.SavedState": "1.0.0.3",
           "Xamarin.AndroidX.ViewPager": "1.0.0.6"
         },
         "frameworkAssemblies": [
@@ -767,13 +802,13 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.Lifecycle.ViewModel.targets": {}
         }
       },
-      "Xamarin.AndroidX.Lifecycle.ViewModelSavedState/2.2.0.4": {
+      "Xamarin.AndroidX.Lifecycle.ViewModelSavedState/2.2.0.5": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.1.0.8",
           "Xamarin.AndroidX.Lifecycle.LiveData.Core": "2.2.0.4",
           "Xamarin.AndroidX.Lifecycle.ViewModel": "2.2.0.4",
-          "Xamarin.AndroidX.SavedState": "1.1.0.4-alpha01"
+          "Xamarin.AndroidX.SavedState": "1.0.0.3"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -916,10 +951,11 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.RecyclerView.targets": {}
         }
       },
-      "Xamarin.AndroidX.SavedState/1.1.0.4-alpha01": {
+      "Xamarin.AndroidX.SavedState/1.0.0.3": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Arch.Core.Common": "2.1.0.7",
           "Xamarin.AndroidX.Lifecycle.Common": "2.2.0.4"
         },
         "frameworkAssemblies": [
@@ -1188,10 +1224,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Fingerprint": "2.1.5",
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.7.2",
-          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -1204,6 +1241,47 @@
     }
   },
   "libraries": {
+    "Plugin.Fingerprint/2.1.5": {
+      "sha512": "+EyrBLC4a4JCgixgqSfI77Gf/pRMs/pe/LLoGBr1iyfwYFRfu7bjlHbO37ie8G5g/wV/gu9haMU26BneI4AAfg==",
+      "type": "package",
+      "path": "plugin.fingerprint/2.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/Plugin.Fingerprint.dll",
+        "lib/monoandroid90/Plugin.Fingerprint.pdb",
+        "lib/monoandroid90/Plugin.Fingerprint.xml",
+        "lib/net45/Plugin.Fingerprint.dll",
+        "lib/net45/Plugin.Fingerprint.pdb",
+        "lib/net45/Plugin.Fingerprint.xml",
+        "lib/netstandard2.0/Plugin.Fingerprint.dll",
+        "lib/netstandard2.0/Plugin.Fingerprint.pdb",
+        "lib/netstandard2.0/Plugin.Fingerprint.xml",
+        "lib/tizen40/Plugin.Fingerprint.dll",
+        "lib/tizen40/Plugin.Fingerprint.pdb",
+        "lib/tizen40/Plugin.Fingerprint.xml",
+        "lib/uap10.0.19041/Plugin.Fingerprint.dll",
+        "lib/uap10.0.19041/Plugin.Fingerprint.pdb",
+        "lib/uap10.0.19041/Plugin.Fingerprint.pri",
+        "lib/uap10.0.19041/Plugin.Fingerprint.xml",
+        "lib/xamarinios10/Plugin.Fingerprint.dll",
+        "lib/xamarinios10/Plugin.Fingerprint.pdb",
+        "lib/xamarinios10/Plugin.Fingerprint.xml",
+        "lib/xamarinmac20/Plugin.Fingerprint.dll",
+        "lib/xamarinmac20/Plugin.Fingerprint.pdb",
+        "lib/xamarinmac20/Plugin.Fingerprint.xml",
+        "lib/xamarintvos10/Plugin.Fingerprint.dll",
+        "lib/xamarintvos10/Plugin.Fingerprint.pdb",
+        "lib/xamarintvos10/Plugin.Fingerprint.xml",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.dll",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.pdb",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.xml",
+        "plugin.fingerprint.2.1.5.nupkg.sha512",
+        "plugin.fingerprint.nuspec",
+        "readme.txt",
+        "xamarin_fingerprint.png"
+      ]
+    },
     "sqlite-net-pcl/1.8.116": {
       "sha512": "W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
       "type": "package",
@@ -1558,10 +1636,10 @@
         "xamarin.android.support.core.utils.nuspec"
       ]
     },
-    "Xamarin.AndroidX.Activity/1.1.0.5": {
-      "sha512": "HAHy6ibECkMBxrOmrOYjBSpHO7cDYIDEEQoUi797LlmzDLUa0/ywJRGBSf+THs10E9FcwdWbpwaWmgwWkgGJQA==",
+    "Xamarin.AndroidX.Activity/1.1.0.6": {
+      "sha512": "X0ATyHAwAYi7lLqHFv3MbBRaXMMuIVny+d5S8Bp+OkIR3ObeC2AXbMNO6tMAssAMc8xcuA7PJbcFMVFeC9ICUQ==",
       "type": "package",
-      "path": "xamarin.androidx.activity/1.1.0.5",
+      "path": "xamarin.androidx.activity/1.1.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1571,7 +1649,7 @@
         "buildTransitive/monoandroid90/Xamarin.AndroidX.Activity.targets",
         "lib/monoandroid90/Xamarin.AndroidX.Activity.dll",
         "lib/monoandroid90/Xamarin.AndroidX.Activity.pdb",
-        "xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
+        "xamarin.androidx.activity.1.1.0.6.nupkg.sha512",
         "xamarin.androidx.activity.nuspec"
       ]
     },
@@ -1693,6 +1771,24 @@
         "lib/monoandroid90/Xamarin.AndroidX.AsyncLayoutInflater.pdb",
         "xamarin.androidx.asynclayoutinflater.1.0.0.6.nupkg.sha512",
         "xamarin.androidx.asynclayoutinflater.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Biometric/1.1.0": {
+      "sha512": "JN9q/vk0OmHIp6B8khaZofTW9Ei9qJiTnKMgm6bvYCJobxp/kz4txRvED3TpRAlR9BIk5VS1gnMhRHuxS2Us+w==",
+      "type": "package",
+      "path": "xamarin.androidx.biometric/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.biometric.biometric.aar",
+        "build/monoandroid90/Xamarin.AndroidX.Biometric.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.Biometric.pdb",
+        "proguard/proguard.txt",
+        "xamarin.androidx.biometric.1.1.0.nupkg.sha512",
+        "xamarin.androidx.biometric.nuspec"
       ]
     },
     "Xamarin.AndroidX.Browser/1.3.0": {
@@ -1850,10 +1946,10 @@
         "xamarin.androidx.drawerlayout.nuspec"
       ]
     },
-    "Xamarin.AndroidX.Fragment/1.2.5.4": {
-      "sha512": "xfO/U6x3l7sP6Hk807pXAYtMo4X38obAiv29nVwr8Jd0oDDD6AhdZq0XLWte3UdPTI2zStLS51mNnMPxKn95IA==",
+    "Xamarin.AndroidX.Fragment/1.2.5.5": {
+      "sha512": "iqN8IB1A2+qRD5OCM2W8GiJuV52G6jCPwg8rKRMGQabVnKw7fWCDtDfEPkV4NoTWVxRLU+2L3Qg5v3639KHVfw==",
       "type": "package",
-      "path": "xamarin.androidx.fragment/1.2.5.4",
+      "path": "xamarin.androidx.fragment/1.2.5.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1864,7 +1960,7 @@
         "lib/monoandroid90/Xamarin.AndroidX.Fragment.dll",
         "lib/monoandroid90/Xamarin.AndroidX.Fragment.pdb",
         "proguard/proguard.txt",
-        "xamarin.androidx.fragment.1.2.5.4.nupkg.sha512",
+        "xamarin.androidx.fragment.1.2.5.5.nupkg.sha512",
         "xamarin.androidx.fragment.nuspec"
       ]
     },
@@ -2023,10 +2119,10 @@
         "xamarin.androidx.lifecycle.viewmodel.nuspec"
       ]
     },
-    "Xamarin.AndroidX.Lifecycle.ViewModelSavedState/2.2.0.4": {
-      "sha512": "Sgg72cJcHsNzlLsMfREQIxcuUqGrHEwztnGFuBRDClDPzdmsHtsPKGJHEfdySgKKJRTjJNQaOIGKtqeB9jr6sg==",
+    "Xamarin.AndroidX.Lifecycle.ViewModelSavedState/2.2.0.5": {
+      "sha512": "DJD7DHR75O0s+7cELVSPeuh3+MRpLEg2haeDVYvaCn2bL5rotpK5BAqxTVcEe9lQBSTSEIfYJdQJpQZ7wAHAog==",
       "type": "package",
-      "path": "xamarin.androidx.lifecycle.viewmodelsavedstate/2.2.0.4",
+      "path": "xamarin.androidx.lifecycle.viewmodelsavedstate/2.2.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2037,7 +2133,7 @@
         "lib/monoandroid90/Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll",
         "lib/monoandroid90/Xamarin.AndroidX.Lifecycle.ViewModelSavedState.pdb",
         "proguard/proguard.txt",
-        "xamarin.androidx.lifecycle.viewmodelsavedstate.2.2.0.4.nupkg.sha512",
+        "xamarin.androidx.lifecycle.viewmodelsavedstate.2.2.0.5.nupkg.sha512",
         "xamarin.androidx.lifecycle.viewmodelsavedstate.nuspec"
       ]
     },
@@ -2192,10 +2288,10 @@
         "xamarin.androidx.recyclerview.nuspec"
       ]
     },
-    "Xamarin.AndroidX.SavedState/1.1.0.4-alpha01": {
-      "sha512": "HP+lNmLs+wX6+FCO6bp6yCJRTBYD3BQKeL+cycZy0K9K2vYEyJElBs8swy15KDGsSf/12o6oIXfeuwWrKzZt/g==",
+    "Xamarin.AndroidX.SavedState/1.0.0.3": {
+      "sha512": "SKsY06CMagfXlKE8YfnKwaK/3Ox1/DcbCS57PB+KZNCkx/cvhsaQWqNM/pSKsNXkoX1H2bu1lFXyvFkSIBaPcg==",
       "type": "package",
-      "path": "xamarin.androidx.savedstate/1.1.0.4-alpha01",
+      "path": "xamarin.androidx.savedstate/1.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2206,7 +2302,7 @@
         "lib/monoandroid90/Xamarin.AndroidX.SavedState.dll",
         "lib/monoandroid90/Xamarin.AndroidX.SavedState.pdb",
         "proguard/proguard.txt",
-        "xamarin.androidx.savedstate.1.1.0.4-alpha01.nupkg.sha512",
+        "xamarin.androidx.savedstate.1.0.0.3.nupkg.sha512",
         "xamarin.androidx.savedstate.nuspec"
       ]
     },
@@ -2672,11 +2768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
+      "projectUniqueName": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
       "projectName": "EmployeeGest.Android",
-      "projectPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
+      "projectPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.Android\\EmployeeGest.Android.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.Android\\obj\\",
+      "outputPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2697,8 +2793,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
-              "projectPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
+            "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
+              "projectPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
             }
           }
         }
@@ -2722,27 +2818,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Passage à une version antérieure du package détecté : Xamarin.Essentials de 1.7.2 à 1.6.1. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n EmployeeGest.Android -> EmployeeGest -> Xamarin.Essentials (>= 1.7.2) \r\n EmployeeGest.Android -> Xamarin.Essentials (>= 1.6.1)",
-      "libraryId": "Xamarin.Essentials",
-      "targetGraphs": [
-        "MonoAndroid,Version=v11.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Passage à une version antérieure du package détecté : Xamarin.Forms de 5.0.0.2401 à 5.0.0.2012. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n EmployeeGest.Android -> EmployeeGest -> Xamarin.Forms (>= 5.0.0.2401) \r\n EmployeeGest.Android -> Xamarin.Forms (>= 5.0.0.2012)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "MonoAndroid,Version=v11.0"
-      ]
-    }
-  ]
+  }
 }

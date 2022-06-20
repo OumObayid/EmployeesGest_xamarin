@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Fingerprint.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -266,10 +278,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Fingerprint": "2.1.5",
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.7.2",
-          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -281,6 +294,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Fingerprint.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -545,10 +570,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Fingerprint": "2.1.5",
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.7.2",
-          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -560,6 +586,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Fingerprint.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -824,10 +862,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Fingerprint": "2.1.5",
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.7.2",
-          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -839,6 +878,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Fingerprint.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -1103,10 +1154,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Fingerprint": "2.1.5",
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.7.2",
-          "Xamarin.Forms": "5.0.0.2401",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -1119,6 +1171,47 @@
     }
   },
   "libraries": {
+    "Plugin.Fingerprint/2.1.5": {
+      "sha512": "+EyrBLC4a4JCgixgqSfI77Gf/pRMs/pe/LLoGBr1iyfwYFRfu7bjlHbO37ie8G5g/wV/gu9haMU26BneI4AAfg==",
+      "type": "package",
+      "path": "plugin.fingerprint/2.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/Plugin.Fingerprint.dll",
+        "lib/monoandroid90/Plugin.Fingerprint.pdb",
+        "lib/monoandroid90/Plugin.Fingerprint.xml",
+        "lib/net45/Plugin.Fingerprint.dll",
+        "lib/net45/Plugin.Fingerprint.pdb",
+        "lib/net45/Plugin.Fingerprint.xml",
+        "lib/netstandard2.0/Plugin.Fingerprint.dll",
+        "lib/netstandard2.0/Plugin.Fingerprint.pdb",
+        "lib/netstandard2.0/Plugin.Fingerprint.xml",
+        "lib/tizen40/Plugin.Fingerprint.dll",
+        "lib/tizen40/Plugin.Fingerprint.pdb",
+        "lib/tizen40/Plugin.Fingerprint.xml",
+        "lib/uap10.0.19041/Plugin.Fingerprint.dll",
+        "lib/uap10.0.19041/Plugin.Fingerprint.pdb",
+        "lib/uap10.0.19041/Plugin.Fingerprint.pri",
+        "lib/uap10.0.19041/Plugin.Fingerprint.xml",
+        "lib/xamarinios10/Plugin.Fingerprint.dll",
+        "lib/xamarinios10/Plugin.Fingerprint.pdb",
+        "lib/xamarinios10/Plugin.Fingerprint.xml",
+        "lib/xamarinmac20/Plugin.Fingerprint.dll",
+        "lib/xamarinmac20/Plugin.Fingerprint.pdb",
+        "lib/xamarinmac20/Plugin.Fingerprint.xml",
+        "lib/xamarintvos10/Plugin.Fingerprint.dll",
+        "lib/xamarintvos10/Plugin.Fingerprint.pdb",
+        "lib/xamarintvos10/Plugin.Fingerprint.xml",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.dll",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.pdb",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.xml",
+        "plugin.fingerprint.2.1.5.nupkg.sha512",
+        "plugin.fingerprint.nuspec",
+        "readme.txt",
+        "xamarin_fingerprint.png"
+      ]
+    },
     "sqlite-net-pcl/1.8.116": {
       "sha512": "W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
       "type": "package",
@@ -1662,11 +1755,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
+      "projectUniqueName": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
       "projectName": "EmployeeGest.iOS",
-      "projectPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
+      "projectPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.iOS\\EmployeeGest.iOS.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest.iOS\\obj\\",
+      "outputPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1687,8 +1780,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
-              "projectPath": "D:\\cours\\xamarin\\projets\\Employees\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
+            "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj": {
+              "projectPath": "D:\\cours\\xamarin\\projets\\EmployeesGest\\EmployeeGest\\EmployeeGest\\EmployeeGest.csproj"
             }
           }
         }
@@ -1719,33 +1812,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Passage à une version antérieure du package détecté : Xamarin.Essentials de 1.7.2 à 1.6.1. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n EmployeeGest.iOS -> EmployeeGest -> Xamarin.Essentials (>= 1.7.2) \r\n EmployeeGest.iOS -> Xamarin.Essentials (>= 1.6.1)",
-      "libraryId": "Xamarin.Essentials",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Passage à une version antérieure du package détecté : Xamarin.Forms de 5.0.0.2401 à 5.0.0.2012. Référencez le package directement à partir du projet pour sélectionner une version différente. \r\n EmployeeGest.iOS -> EmployeeGest -> Xamarin.Forms (>= 5.0.0.2401) \r\n EmployeeGest.iOS -> Xamarin.Forms (>= 5.0.0.2012)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  }
 }
