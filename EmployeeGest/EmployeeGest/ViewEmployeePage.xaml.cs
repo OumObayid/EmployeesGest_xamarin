@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
-
-using Plugin.Messaging;
 
 
 namespace EmployeeGest
@@ -16,7 +9,10 @@ namespace EmployeeGest
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ViewEmployeePage : ContentPage
     {
+        // to receive the employer information sent by the parent page
         Employee employeeDetails;
+
+        // "Employee details" as parametre to receive the employer information sent by the parent page
         public ViewEmployeePage(Employee details)
         {
             InitializeComponent();
@@ -25,17 +21,16 @@ namespace EmployeeGest
                 employeeDetails = details;
                 PopulateDetails(employeeDetails);
             }
-
-
         }
+
+        //to display employee information in the fields
         private void PopulateDetails(Employee details)
         {
             name.Text = details.Name;
             address.Text = details.Address;
             phoneNumber.Text = details.PhoneNumber;
             email.Text = details.Email;
-            Image.Source = details.ImagePath;
-           
+            Image.Source = details.ImagePath;           
             Title = "Employee Details";
         }
 
@@ -44,29 +39,43 @@ namespace EmployeeGest
             base.OnAppearing();
         }
 
+        //To call
         public void btnCall_Clicked(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(phoneNumber.Text))
             {
+                //apply to call method
                 Call(phoneNumber.Text);
             }
         }
          
+        //to send sms
         public async void btnSms_Clicked(object sender, EventArgs e)
         {
-            await Xamarin.Essentials.Sms.ComposeAsync(new SmsMessage("", phoneNumber.Text));
-
-
+            if (phoneNumber.Text != "")
+            {
+                await Xamarin.Essentials.Sms.ComposeAsync(new SmsMessage("", phoneNumber.Text));
+            }
+            else
+            {
+                _ = DisplayAlert("Alert", "Employee does not have an phoneNumber", "OK");
+            }
         }
-       
 
-        public void btnEmail_Clicked(object sender, EventArgs e)
+       // to send email
+        public void BtnEmail_Clicked(object sender, EventArgs e)
         {
             if (email.Text != "")
-                Email.ComposeAsync("", "", email.Text);
-            else DisplayAlert("Alert", "Employee does not have an email","OK");
+            {
+                _ = Email.ComposeAsync("", "", email.Text);
+            }
+            else
+            {
+                _ = DisplayAlert("Alert", "Employee does not have an email", "OK");
+            }
         }
 
+        //method call
         public async void Call(string number)
         {            
             try

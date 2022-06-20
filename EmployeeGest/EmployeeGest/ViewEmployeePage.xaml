@@ -34,7 +34,7 @@
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Button Text="Call" Clicked="btnCall_Clicked" Margin="12"></Button>
                 <Button Text="Sms" Clicked="btnSms_Clicked" Margin="12"></Button>
-                <Button Text="Email" Clicked="btnEmail_Clicked" Margin="12"></Button>
+                <Button Text="Email" Clicked="BtnEmail_Clicked" Margin="12"></Button>
             </StackLayout>
 
 
