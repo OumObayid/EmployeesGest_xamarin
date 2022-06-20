@@ -36,6 +36,7 @@ namespace EmployeeGest.MasterPage
                 FlyoutPage.ListView.SelectedItem = null;
             }
           
+            // add this code for sharing this application
             else if (item.Title == "Share")
             {
 

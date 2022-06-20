@@ -14,9 +14,9 @@ namespace EmployeeGest
         {
             InitializeComponent();
 
-            DependencyService.Get<ISQLite>().GetConnectionWithCreateDatabase();
+            // Database connection 
+            _ = DependencyService.Get<ISQLite>().GetConnectionWithCreateDatabase();
          
-           // MainPage = new NavigationPage(new MainPage());
             MainPage = new MasterPage.MasterPage();
 
             
@@ -28,6 +28,11 @@ namespace EmployeeGest
 
         protected override async void OnStart()
         {
+            //Authentication by Fingerprint
+            // we first install the "Plugin.Fingerprint" package
+            // we make must this application request the USE_FINGERPRINT permission in the manifest
+            //we must too add this line in methode onCreate in file MainActivity.cs: CrossFingerprint.SetCurrentActivityResolver(() => this);
+
             var result = await CrossFingerprint.Current.IsAvailableAsync();
 
             if (result)

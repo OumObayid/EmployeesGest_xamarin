@@ -13,8 +13,13 @@ namespace EmployeeGest
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EditEmployeePage : ContentPage
     {
+        // to stock photo path from mobile storage
         public string path;
+
+        // to receive the employer information sent by the parent page
         Employee employeeDetails;
+
+        // "Employee details" as parametre to receive the employer information sent by the parent page
         public EditEmployeePage(Employee details)
         {
             InitializeComponent();
@@ -27,7 +32,7 @@ namespace EmployeeGest
             }
         }
 
-
+        //to display employee information in the fields
         private void PopulateDetails(Employee details)
         {
             name.Text = details.Name;
@@ -41,6 +46,8 @@ namespace EmployeeGest
             Title = "Edit Employee";
         }
 
+        // to select a photo from mobile storage
+        // for this we must install the paquage Plugin.Media;
         private async void BtnTakePhoto_Clicked(object sender, EventArgs e)
         {
             if (!CrossMedia.Current.IsPickPhotoSupported)
@@ -65,6 +72,8 @@ namespace EmployeeGest
                 return stream;
             });
         }
+
+
         private void UpdateEmployee(object sender, EventArgs e)
         {
             if (name.Text == "" || phoneNumber.Text == "")
@@ -73,20 +82,21 @@ namespace EmployeeGest
             {
                 // update employee
                 employeeDetails.Name = name.Text;
-                    employeeDetails.Address = address.Text;
-                    employeeDetails.PhoneNumber = phoneNumber.Text;
-                    employeeDetails.Email = email.Text;
-                    employeeDetails.ImagePath = path;
-                    bool res = DependencyService.Get<ISQLite>().UpdateEmployee(employeeDetails);
-                    if (res)
-                    {
-                        Navigation.PopAsync();
-                    }
-                    else
-                    {
-                        DisplayAlert("Message", "Data Failed To Update", "Ok");
-                    }
+                employeeDetails.Address = address.Text;
+                employeeDetails.PhoneNumber = phoneNumber.Text;
+                employeeDetails.Email = email.Text;
+                employeeDetails.ImagePath = path;
                 
+                bool res = DependencyService.Get<ISQLite>().UpdateEmployee(employeeDetails);
+                if (res)
+                {
+                    //navigate back
+                    _ = Navigation.PopAsync();
+                }
+                else
+                {
+                    _ = DisplayAlert("Message", "Data Failed To Update", "Ok");
+                }                
             }
         }
     }

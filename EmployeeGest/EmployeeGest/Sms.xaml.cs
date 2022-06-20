@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
 using Xamarin.Essentials;
 
 namespace EmployeeGest
@@ -19,12 +15,15 @@ namespace EmployeeGest
             InitializeComponent();
         }
 
-        private async void btnSend_Clicked(object sender, EventArgs e)
+        //to send sms to all employees
+        private async void BtnSend_Clicked(object sender, EventArgs e)
         {
             try
             {
-
+                // for stocking employees sms
                 List<string> List = new List<string>();
+
+                // select all employees
                 List<Employee> Employees = DependencyService.Get<ISQLite>().GetEmployees();
                 
 
@@ -56,6 +55,7 @@ namespace EmployeeGest
             }
         }
 
+        //method send sms
         public async Task SendSms(string messageText, string[] recipients)
         {
             try
@@ -65,11 +65,11 @@ namespace EmployeeGest
             }
             catch (FeatureNotSupportedException ex)
             {
-                // Sms is not supported on this device.
+                await DisplayAlert("Faild", ex.Message, "OK");
             }
             catch (Exception ex)
             {
-                // Other error has occurred.
+                await DisplayAlert("Faild", ex.Message, "OK");
             }
         }
 

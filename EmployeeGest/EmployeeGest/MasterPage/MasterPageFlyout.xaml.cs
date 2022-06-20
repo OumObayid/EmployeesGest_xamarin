@@ -29,9 +29,10 @@ namespace EmployeeGest.MasterPage
             public ObservableCollection<MasterPageFlyoutMenuItem> MenuItems { get; set; }
 
             public MasterPageFlyoutViewModel()
-            {
+            {              
                 MenuItems = new ObservableCollection<MasterPageFlyoutMenuItem>(new[]
                 {
+                    // to add an other menu
                     new MasterPageFlyoutMenuItem { Id = 0, Icon="employee", Title = "Employees",TargetType=typeof(MasterPageDetail) },
                     new MasterPageFlyoutMenuItem { Id = 1, Icon="email", Title = "Contact All", TargetType = typeof(Contact) },
                     new MasterPageFlyoutMenuItem { Id = 2, Icon="sms", Title = "Sms All", TargetType = typeof(Sms) },

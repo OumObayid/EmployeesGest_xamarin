@@ -19,14 +19,17 @@ namespace EmployeeGest
             InitializeComponent();
         }
 
+
+        //to send email to all employees
         private async void btnSend_Clicked(object sender, EventArgs e)
         {
             try
             {
-
+                // for stocking employees emails
                 List<string> EmailList = new List<string>();
-                List<Employee> Employees = DependencyService.Get<ISQLite>().GetEmployees();
 
+                // select all employees
+                List<Employee> Employees = DependencyService.Get<ISQLite>().GetEmployees();
 
                 foreach (Employee employee in Employees)
                 {
@@ -52,6 +55,7 @@ namespace EmployeeGest
             }
         }
 
+        //method send mails
         public async Task SendEmail(string subject, string body, List<string> recipients)
         {
             try

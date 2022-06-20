@@ -19,12 +19,12 @@ namespace EmployeeGest
         {
             InitializeComponent();
 
-            path = "";
-          
+            //to get the path of the photo
+            path = "";          
         }
 
-
-
+        // to select a photo from mobile storage
+        // for this we must install the paquage Plugin.Media;
         private async void BtnTakePhoto_Clicked(object sender, EventArgs e)
         {
             if (!CrossMedia.Current.IsPickPhotoSupported)
@@ -40,8 +40,11 @@ namespace EmployeeGest
 
             if (file == null)
                 return;
-            
+
+            //memorize the path of the photo
             path = file.Path;
+
+            //to display the selected photo
             Image.Source = ImageSource.FromStream(() =>
             {
                 Stream stream = file.GetStream();
@@ -49,6 +52,8 @@ namespace EmployeeGest
                 return stream;
             });
         }
+
+        //to save the information entered
         private void SaveEmployee(object sender, EventArgs e)
         {
             if (name.Text == "" || phoneNumber.Text == "")
